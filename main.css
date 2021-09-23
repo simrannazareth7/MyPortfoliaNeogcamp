@@ -2,8 +2,8 @@
 @import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
 
 :root {
-    --primary-color: #FBBF24;
-    --dim-gray: dimgray; 
+    --primary-color: #0d5e94;
+    --dim-gray: rgb(201, 167, 167); 
     --off-white: #E5E7EB;
 }
 
