@@ -29,9 +29,11 @@
        
         <li>
             <article class="margin-md">
+                <strong>Blog 1</strong>
                 <h1>The most repeated questions I met with on job interviews </h1>
                 <small></small>
                 <h2>const vs let vs var</h2>
+                
                 <p>
 
                     <strong>Const</strong> keyword create block scope variable and prevents its value to be reassigned by a new value. However, 
@@ -50,8 +52,102 @@
                     === is strict comparison, it checks value and type of value as well, so 1 === "1" returns false, 
                     the opposite of that is == comaparison which checks only value so 1 == "1" returns true.
                 </p>
+
+
+
+                <h2>
+                    What are global variables? How are these variable declared?
+                </h2>
+
+                <p> 
+                    Global variables are available throughout the length of the code so that it has no scope. The var keyword is used to declare a local variable or object. If the var keyword is omitted, a global variable is declared.
+
+Example:
+
+// Declare a global: globalVariable = “Test”;
+
+The problems faced by using global variables are the clash of variable names of local and global scope. Also, it is difficult to debug and test the code that relies on global variables.
+                  
+                </p>
+
+
+                
+                <h2>
+                    What is break and continue statements
+                </h2>
+
+                <p>
+                    Break statement exits from the current loop.
+
+                    Continue statement continues with next statement of the loop.
+                </p>
+
+
+
+                
+                <h2>
+                    What is for-in loop in Javascript
+                </h2>
+
+                <p>
+                    The for-in loop is used to loop through the properties of an object.
+
+                    The syntax for the for-in loop is –
+                    
+                    for (variable name in object){
+                        statement or block to execute
+                    }
+                    In each repetition, one property from the object is associated with the variable name. The loop is continued till all the properties of the object are depleted.
+                </p>
+
+
             </article>
             
+        </li>
+
+
+
+        <li>
+
+            <article class="margin-md">
+            <strong>Blog 2</strong>
+            <h1>Javascript and other Lang</h1>
+            <h2>Why JavaScript is different from other languages?</h2>
+                <p>
+                    JavaScript was only interpreted at one time but is now often run through a JIT compiler. Java is statically typed, while JavaScript is dynamically typed. Java is strongly typed, 
+                    while JavaScript isn’t. Both Java and JavaScript support many other languages.
+                </p>
+            
+            <h2>Which language is better PHP or JavaScript?</h2>
+
+            <p>
+                It was created for web development but now can be used as a general-purpose language. The main difference from Javascript is that PHP is a server-side language used for back-end and executed on the server.
+                 It has more features, richer libraries, and better security compared to JS.
+            </p>
+
+                
+            <h2>
+                Why PHP is not a programming language?
+            </h2>
+
+            <p>
+                Generally speaking, you will have a . php file on your server. That PHP file will generate an HTML page — which may contain Javascript code. Once the HTML page is received by the browser,
+                 it will be displayed, and Javascript will be executed.
+            </p>
+
+            <h2>
+                Is JavaScript harder than PHP?
+            </h2>
+
+            <p>
+                js, for server side is not that complicated. But it is more difficult than PHP.
+                 Since JavaScript is more universal than PHP, the learning effort brings much more value. PHP wins a point for learning simplicity,
+                 beginning developers will definitely appreciate it.
+            </p>
+           
+
+            </article>
+
         </li>
     </ul>
 
@@ -67,4 +163,5 @@
         <p class="copyright">Simran Nazareth © 2021</p>
     </footer>
 </body>
+
 </html>

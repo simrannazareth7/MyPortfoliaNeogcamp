@@ -12,6 +12,8 @@ body {
     margin: 5px;
 }
 
+#more {display: none;}
+
 hr {
     margin: 2rem 0rem;
 }

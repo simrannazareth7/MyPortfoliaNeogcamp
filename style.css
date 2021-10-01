@@ -144,6 +144,8 @@ ul li {
   font-size: large;
 }
 
+#more {display: none;}
+
 .footer .link {
   color: white;
 }
